@@ -1,0 +1,7 @@
+[Unit]
+Description= Git Push
+
+[Service]
+Type=simple
+ExecStart=runuser -l mrcat -c /home/mrcat/workspace/100DaysOfOwasp/push.sh     
+

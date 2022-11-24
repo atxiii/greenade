@@ -1,0 +1,8 @@
+[Unit]
+Description=Git Push.
+
+[Timer]
+OnCalendar=*-*-* 22:34:00
+
+[Install]
+WantedBy=multi-user.target
